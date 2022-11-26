@@ -1717,10 +1717,9 @@ button.bg-danger:hover {
 }
 .card_box {
 	display: block; 
-	transform: translateX(100%); 
 	height: 500px;
 	width: 300px !important;
-	animation: move 5s linear infinite ;
+	/* animation: move 5s linear infinite ; */
   }
   
   /* Create the animation */
