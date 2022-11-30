@@ -7384,3 +7384,13 @@ view-btn:hover, .view-btn:focus {
 	height: 50px;
 	width: 50px;
 }
+
+.form-select {
+	height: 50px;
+	width: 280px;
+	border-radius: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: #20c0f3;
+	border-style: solid;
+}
