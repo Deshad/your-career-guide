@@ -125,6 +125,7 @@
             padding-top: 2rem !important;
         }
 
+
         @media screen and (max-width:500px) {
             .card-footer {
                 padding: 0.75rem 0rem !important;
@@ -221,7 +222,7 @@
     <div class="main-wrapper">
 
         <!-- Header -->
-        <header class="header">
+        <header style="position:sticky;top:0px;width:100%;display:block;margin-bottom:20px;" class="header">
             <nav class="navbar navbar-expand-lg header-nav">
                 <div class="navbar-header" style="position: relative;">
                     <a id="mobile_btn" href="javascript:void(0);">
@@ -251,31 +252,36 @@
                     </div>
                     <ul class="main-nav">
 
-                        <!-- 
+
                     <i class="fa-solid fa-plane-arrival fa-3x"></i>
                     <li class="active">
                         <a href="index.html" >HOME</a>
                     </li>
 
-
+                    <!--
                     <i class="fa-solid fa-chalkboard-user fa-2x"></i>
                     <li class="active">
-                        
-                        <a href="#tutor_home">TUTOR EDUVIZO</a>
+                        <a href="#tutor_home">ABOUT US</a>
                     </li>
-
+                  -->
 
                     <i class="fa-regular fa-address-card fa-2x"></i>
                     <li class="active">
-                        
-                        <a href="#about_us">WHY EDUVIZO</a>
+
+                        <a href="#aboutus">ABOUT US</a>
                     </li>
+
 
                     <i class="fa-solid fa-face-grin fa-2x"></i>
                     <li class="active">
-                        
-                        <a href="#how_use">USER TESTIMONIALS</a>
-                    </li> -->
+
+                        <a href="#ourmentors">OUR MENTORS</a>
+                    </li>
+                    <i class="fa-solid fa-face-grin fa-2x"></i>
+                    <li class="active">
+
+                        <a href="#videos">RESOURCES</a>
+                    </li>
 
 
                         <i class="fa-solid fa-address-book fa-2x"></i>
@@ -291,27 +297,63 @@
             </nav>
         </header>
 
-
-        <div id="home" <!-- style="padding: 30px;" -->>
-            <div class="flex flex-row justify-content-around flex-wrap">
-                <div style="max-width: 600px; align-items: center; margin: auto;">
+        <!--
+        <div id="home"  style="padding: 30px;" >
+            <div  class="flex flex-row justify-content-around flex-wrap">
+                <div style="max-width: 600px; margin: auto;">
                     <div class="section-header ">
                         <h2 class="heading" style="font-size:64px; font-weight:600; text-align:center;"> One stop
                             solution to your career related questions</h2>
                     </div>
-                    <div id="">
-                        <!-- 
-                    <a href="" class="btn vieww-btn">App Coming Soon</a> -->
-                    </div>
+                    <!--<div id="">
+                    <a href="" class="btn vieww-btn">App Coming Soon</a>
+                  </div>
                 </div>
                 <div max-width="800px" style="display:flex; justify-content:center;">
                     <img src="assets/img/4630062.jpg" style="width:60% ;">
                 </div>
             </div>
+        </div>-->
+        <div id="home"  style="padding: 30px;" >
+                    <h2 style="text-align:center;font-size:3rem;font-weight:bold;"><br>ABOUT US<br><br></h2>
+                    <!--<div class="section-header "></div>-->
+                    <div style="float:left;width:40%;margin-left:15%">
+                      <h2 class="heading" style="margin:auto;"> One stop
+                              solution to your career related questions</h2>
+                      <p>Hello!</p>
+                    </div>
+
+                    <!--<div id="">
+                    <a href="" class="btn vieww-btn">App Coming Soon</a>
+                  </div>-->
+
+
+                    <img src="assets/img/4630062.jpg" style="margin-left: 15%;width:35% ;">
+
+
+        </div>
+        <div id="aboutus"  style="padding: 30px;" >
+                    <h2 style="text-align:center;font-size:3rem;font-weight:bold;"><br>ABOUT US<br><br></h2>
+                    <!--<div class="section-header "></div>-->
+                    <div style="float:right;width:30%;margin-right:10%">
+                      <h2 class="heading" style="margin:auto;"> One stop
+                              solution to your career related questions</h2>
+                      <p>Hello!</p>
+                    </div>
+
+                    <!--<div id="">
+                    <a href="" class="btn vieww-btn">App Coming Soon</a>
+                  </div>-->
+
+
+                    <img src="assets/img/4630062.jpg" style="margin-left: 10%;width:35% ;">
+                    <br><br>
+
         </div>
 
 
-        <div style="margin-top: 100px; width: 90%; margin: auto;" class="container justify-around" id="tutor_home">
+        <div id="ourmentors" style="margin-top: 100px; width: 90%; margin: auto;" class="container justify-around" id="tutor_home">
+            <h2 style="padding-top: 20px;display:block;text-align:center;font-size:3rem;"><br>Your Career Path begins here!<br><br></h2>
             <div class="text-center">
                 <select id="priyam-select" class="form-select" aria-label="Default select example">
                     <option value="" selected>Choose Field</option>
@@ -327,6 +369,7 @@
         </div>
 
         <!-- Links -->
+        <!--
         <div class="container">
             <div class="row">
                 <div class="col-6 text-center">
@@ -341,7 +384,7 @@
                 </div>
             </div>
         </div>
-
+      -->
         <div class="col-3">
             <div class="card_box flex flex-col justify-between">
                 <a href="https://topmate.io/neelotpal_datta"><img class="img-fluid-1"
@@ -395,7 +438,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="col-3">
             <div class="card_box flex flex-col justify-between">
                 <a href="https://topmate.io/naman_chaudhary10"><img class="img-fluid-1"
@@ -501,7 +544,20 @@
             </div>
         </div>
 
+        <div id="videos"  style="padding: 30px;" >
+                    <h2 style="text-align:center;font-size:3rem;font-weight:bold;"><br>ABOUT US<br><br></h2>
+                    <!--<div class="section-header "></div>-->
+                    <iframe width="420" height="315" style="margin-left:15%;padding-right: 2%;display:inline-block;width:25%;"
+                      src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0">
+                    </iframe>
+                    <iframe width="420" height="315" style="padding-right: 2%;display:inline-block;width:25%;"
+                      src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0">
+                    </iframe>
+                    <iframe width="420" height="315" style="display:inline-block;width:25%;"
+                      src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0">
+                    </iframe>
 
+        </div>
 
 
 
@@ -621,8 +677,6 @@
             "cs": {
                 name: "Computer Science",
                 objects: `
-
-
                     <div class="col-3">
                     <div class="card_box flex flex-col justify-between ">
                         <a href="https://topmate.io/vastavbansal"><img class="img-fluid-1"
@@ -640,10 +694,6 @@
                         </div>
                     </div>
                 </div>
-
-
-
-
                 <div class="col-3">
                     <div class="card_box flex flex-col justify-between">
             <a href="https://topmate.io/abhigyan_khaund"><img class="img-fluid-1"
@@ -662,10 +712,6 @@
             </div>
         </div>
                 </div>
-                
-
-
-
                 `
             },
             "tpm": {
@@ -686,10 +732,6 @@
                                     Connect Now</a></small>
                         </div>
                     </div>
-                    
-                    
-                    
-                    
                     `
             }
         }
